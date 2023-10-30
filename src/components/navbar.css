@@ -25,16 +25,17 @@ overflow: hidden;
     from, to { border-color: transparent }
     50% { border-color: rgb(255, 0, 0); }
   }
-  @media only screen and (min-width: 992px){
+  /* @media only screen and (min-width: 992px){
       .nas{
           position: absolute;
           left: 36%;
         } 
 
   }
-  
+   */
     .loga{
         width: 2rem;
+        filter: drop-shadow(3px 3px 2px);
     }
     
     .nav-background {
