@@ -39,10 +39,39 @@ overflow: hidden;
     }
     
     .nav-background {
-        background-image: url("https://images.unsplash.com/photo-1587351021355-a479a299d2f9?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG9zcGl0YWwlMjBidWlsZGluZ3xlbnwwfHwwfHx8MA%3D%3D");
+        background-image: url("https://images.unsplash.com/photo-1557682268-e3955ed5d83f?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHB1cnBsZSUyMGFlc3RoZXRpY3xlbnwwfHwwfHx8MA%3D%3D");
         background-size: cover;
 
         /* Workaround for some mobile browsers */
         min-height: 100%;
       }
-    
+    .resi{
+      width: 1.5rem;
+    }
+    .resibag{
+      width: 1.25rem;
+    }
+      .ktt{
+      
+      position: relative;
+      left: 50%;
+      top: -5px;
+    }
+    .ktbag{
+      
+      position: relative;
+      left: 50%;
+    }
+    .ktlogin{
+      
+      position: relative;
+      left: 50%;
+      
+    }
+    .po{
+      position: relative;
+      top: 1rem;
+    }
+    .fon{
+      font-size: 0.75rem;
+    }
