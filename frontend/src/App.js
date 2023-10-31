@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       
       <Routes>
-        <Route path="/helth" exact element={<Home />} />
+        <Route path="/" exact element={<Home />} />
         
       </Routes>
     

@@ -1,23 +1,27 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(SamarkanNormal-Gg5D.ttf);
+}
 .tra{
 position: relative;
-top: -2px;
+top: 2px;
 left: 8px;
-width: 3.8rem;
+width: 5.2rem;
 padding: 0;
 overflow: hidden; 
   border-right: .10em solid orange; 
   white-space: nowrap; 
-  
+  font-family: myFirstFont;
   letter-spacing: .10em; 
   animation: 
-    typing 1.5s steps(6, end),
+    typing 2s steps(8, end),
     blink-caret 1s step-end -0.5s infinite;
     
 
 }
 @keyframes typing {
     from { width: 0 }
-    to { width: 3.8rem }
+    to { width: 5.2rem }
   }
   
   
@@ -35,12 +39,12 @@ overflow: hidden;
    */
     .loga{
         width: 2rem;
-        filter: drop-shadow(3px 3px 2px);
+        filter: drop-shadow(2px 2px 2px black);
     }
     
     .nav-background {
-        background-image: url("https://images.unsplash.com/photo-1557682268-e3955ed5d83f?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHB1cnBsZSUyMGFlc3RoZXRpY3xlbnwwfHwwfHx8MA%3D%3D");
-        background-size: cover;
+      background: rgb(255,222,89);
+      background: linear-gradient(90deg, rgba(255,222,89,1) 0%, rgba(254,145,76,1) 100%); 
 
         /* Workaround for some mobile browsers */
         min-height: 100%;
@@ -74,4 +78,20 @@ overflow: hidden;
     }
     .fon{
       font-size: 0.75rem;
+    }
+    @media only screen and (min-width: 992px){
+      .img-fluid{
+        height: 500px;
+        width: auto;
+        /* position: relative;
+        left: 20%; */
+      }
+    }
+    .bgkaimg{
+      background:
+      linear-gradient( to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%),
+         url("https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGFncmljdWx0dXJlfGVufDB8fDB8fHww");
+      background-size: cover;
+      height: 550px;
+      
     }
