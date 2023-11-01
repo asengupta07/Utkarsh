@@ -93,9 +93,113 @@ overflow: hidden;
          url("https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGFncmljdWx0dXJlfGVufDB8fDB8fHww");
       background-size: cover; */
       
-      background-color: black;
+      background-color: rgb(37, 37, 37);
     }
     .container-fluid{
       padding-left: 0;
       padding-right: 0;
     }
+    .leadtext{
+      font-size: 500%;
+      color: white;
+      font-family: myFirstFont;
+    }
+    .captext{
+      font-size: 100%;
+      color: white;
+    }
+    .bgkaimg2{
+      background-color: rgb(0, 0, 0);
+      height: auto;
+    }
+    .imagrezi{
+      height: 225px;
+      width: 225px;
+      margin: auto;    
+    display: block;
+    }
+    @media only screen and (max-width: 992px){
+      .imagrezi{
+        height: 80px;
+        width: 80px;
+      }
+    }
+    .padtop{
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+    .img1 {
+      background: url("https://cdn.discordapp.com/attachments/1169346758636224614/1169347125478424636/IMG-20231101-WA0075.jpg?ex=65551260&is=65429d60&hm=3f7ab3879634e14d5fc7f6551a914db62f381ebdc223697b944d86fe75287730&") no-repeat;
+      background-size: cover;
+      transition: 0.3s;
+    }
+    .img2{
+      background: url("https://cdn.discordapp.com/attachments/1169346758636224614/1169347125780434994/IMG-20231101-WA0074.jpg?ex=65551260&is=65429d60&hm=c5979a4a9844ca3f4724407d08b4234cb5c660daec3e2193ac66fddbf0c03af8&") no-repeat;
+      background-size: cover;
+      transition: 0.3s;
+      
+    }
+    .img3{
+      background: url("https://cdn.discordapp.com/attachments/1169346758636224614/1169347126153711716/IMG-20231102-WA0005.jpg?ex=65551260&is=65429d60&hm=9ab067b6fff6be2d0794daafdc015c24c780d0decc0b6a3bf0a8e48b77d2c4f1&") no-repeat;
+      background-size: cover;
+      transition: 0.3s;
+
+    }
+    .img4{
+      background: url("https://cdn.discordapp.com/attachments/1169346758636224614/1169347126543777862/IMG-20231102-WA0002.jpg?ex=65551260&is=65429d60&hm=455c987829da9b9a3ec5ba78c6156b918fd253dd16b7a337bce77ee5db7076cb&") no-repeat;
+      background-size: cover;
+      transition: 0.3s;
+    }
+    .img1:hover {
+      background: url("https://cdn.discordapp.com/attachments/1169346758636224614/1169349058062733332/IMG-20231101-WA0076.jpg?ex=6555142c&is=65429f2c&hm=cd00e1d8471b4d2c2eaf69d75888447ee3c9997914b139ba996c303ca867f9e8&") no-repeat;
+      background-size: cover;
+    }
+    .img2:hover{
+      background: url("https://cdn.discordapp.com/attachments/1169346758636224614/1169349058427629568/IMG-20231101-WA0073.jpg?ex=6555142c&is=65429f2c&hm=2dfad69fab08c8396b7811bf94400cfff4cfbcc5600ba297f8c728d9ffb1716e&") no-repeat;
+      background-size: cover;
+      
+    }
+    .img3:hover{
+      background: url("https://cdn.discordapp.com/attachments/1169346758636224614/1169349058792542389/IMG-20231102-WA0006.jpg?ex=6555142d&is=65429f2d&hm=9e522ae041fb04a1b628607273414b580483ddd22ecab13f823002c56cb4a3f9&") no-repeat;
+      background-size: cover;
+
+    }
+    .img4:hover{
+      background: url("https://cdn.discordapp.com/attachments/1169346758636224614/1169349059144855672/IMG-20231102-WA0003.jpg?ex=6555142d&is=65429f2d&hm=611cfbf808ad241a73ba08538a6c11b4a5240d9170c3941e9ba3138b97887c46&") no-repeat;
+      background-size: cover;
+
+    }
+    .men1 {
+      background: url("https://futureoflife.org/wp-content/uploads/2020/08/elon_musk_royal_society.jpg") no-repeat;
+      background-size: cover;
+      
+    }
+    .men2{
+      background: url("https://static01.nyt.com/images/2021/05/17/business/14altGates-print/14Gates--top-mediumSquareAt3X.jpg") no-repeat;
+      background-size: cover;
+      
+      
+    }
+    .men3{
+      background: url("https://static01.nyt.com/images/2021/06/13/books/review/Smith/merlin_126481298_d4afd655-6a72-4f41-b8c8-00f1633315fb-mediumSquareAt3X.jpg") no-repeat;
+      background-size: cover;
+      
+
+    }
+    .aboimg{
+      width: 100%;
+      
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+      background: 
+      linear-gradient( to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%),
+      url("https://www.searchenginejournal.com/wp-content/uploads/2021/10/google-search-eco-friendly-615eb5e872143-sej.png") ;
+    }
+    .captext2{
+      font-size: 150%;
+      color: white;
+    }
+    .w-60{
+      width: 60%;
+    }
+   
