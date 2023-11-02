@@ -86,6 +86,7 @@ overflow: hidden;
         /* position: relative;
         left: 20%; */
       }
+      
     }
     .bgkaimg{
       /* background: */
@@ -122,6 +123,10 @@ overflow: hidden;
       .imagrezi{
         height: 80px;
         width: 80px;
+      }
+      
+      .leadtext{
+        font-size: 400%;
       }
     }
     .padtop{
@@ -172,34 +177,104 @@ overflow: hidden;
     .men1 {
       background: url("https://futureoflife.org/wp-content/uploads/2020/08/elon_musk_royal_society.jpg") no-repeat;
       background-size: cover;
-      
+      border-radius: 50%
     }
     .men2{
       background: url("https://static01.nyt.com/images/2021/05/17/business/14altGates-print/14Gates--top-mediumSquareAt3X.jpg") no-repeat;
       background-size: cover;
-      
+      border-radius: 50%
       
     }
     .men3{
       background: url("https://static01.nyt.com/images/2021/06/13/books/review/Smith/merlin_126481298_d4afd655-6a72-4f41-b8c8-00f1633315fb-mediumSquareAt3X.jpg") no-repeat;
       background-size: cover;
-      
+      border-radius: 50%
 
     }
     .aboimg{
       width: 100%;
       
       padding-top: 6rem;
-      padding-bottom: 6rem;
+      padding-bottom: 12rem;
       background: 
       linear-gradient( to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%),
       url("https://www.searchenginejournal.com/wp-content/uploads/2021/10/google-search-eco-friendly-615eb5e872143-sej.png") ;
     }
     .captext2{
-      font-size: 150%;
+      font-size: 200%;
       color: white;
     }
     .w-60{
       width: 60%;
     }
-   
+    .navspac{
+      height: 2.5rem;
+    }
+    .captext3{
+      font-size: 100%;
+      color: white;
+    }
+    .waves {
+      position:relative;
+      width: 100%;
+      height:30vh;
+      margin-bottom:-7px; 
+      min-height:100px;
+      max-height:150px;
+    }
+    .parallax > use {
+      animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+    }
+    .parallax > use:nth-child(1) {
+      animation-delay: -2s;
+      animation-duration: 7s;
+    }
+    .parallax > use:nth-child(2) {
+      animation-delay: -3s;
+      animation-duration: 10s;
+    }
+    .parallax > use:nth-child(3) {
+      animation-delay: -4s;
+      animation-duration: 13s;
+    }
+    .parallax > use:nth-child(4) {
+      animation-delay: -5s;
+      animation-duration: 20s;
+    }
+    @keyframes move-forever {
+      0% {
+       transform: translate3d(-90px,0,0);
+      }
+      100% { 
+        transform: translate3d(85px,0,0);
+      }
+    }
+    /*Shrinking for mobile*/
+    @media (max-width: 768px) {
+      .waves {
+        height:40px;
+        min-height:40px;
+      }
+    }
+    .contenta {
+      position:relative;
+      height:20vh;
+      text-align:center;
+      background-color: #ffc57c;
+    }
+    .flexa{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .crie{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 1px;
+  font-size:30px;
+  color: #333333;
+    }
+    .fixit{
+      position: relative;
+      bottom: 6rem;
+    }
