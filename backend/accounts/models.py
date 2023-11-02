@@ -10,4 +10,15 @@ class User(models.Model):
     address = models.TextField()
 
     def __str__(self):
-        return self.first_name + " " + self.last_name   
+        return self.first_name + " " + self.last_name
+    
+
+class Seller(models.Model):
+    id = models.AutoField(primary_key=True)
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    image = models.ImageField(upload_to='sellers', null=True, blank=True)
+    rating = models.DecimalField(max_digits=3, decimal_places=2, default=0.0)
+    num_ratings = models.IntegerField(default=0)
+
+    def __str__(self):
+        return self.name
