@@ -55,6 +55,7 @@ const Subsidies = () =>{
             
         - It can be opened by rural individuals and helps in long-term wealth creation.
             </p>
+            </div>
             <div className="d-flex justify-content-center">
         <div className="d-lg-none w-75 captext3"><strong>2. Public Provident Fund (PPF):
  </strong>
@@ -69,7 +70,7 @@ const Subsidies = () =>{
 </div>
         </div>
 
-</div>
+
         </div>
         <div className="d-flex justify-content-center">
         <div className="d-none d-lg-block w-75 captext2"><strong>3. Post Office Monthly Income Scheme (POMIS):
@@ -84,6 +85,7 @@ const Subsidies = () =>{
           - It's a suitable investment option for those looking for regular income in rural areas.
 
             </p>
+            </div>
             <div className="d-flex justify-content-center">
         <div className="d-lg-none w-75 captext3"><strong>3. Post Office Monthly Income Scheme (POMIS):
 
@@ -101,7 +103,7 @@ const Subsidies = () =>{
 </div>
         </div>
         
-</div>
+
         </div>
         <div className="d-flex justify-content-center">
         <div className="d-none d-lg-block w-75 captext2"><strong>4. Kisan Vikas Patra (KVP):
@@ -118,6 +120,7 @@ const Subsidies = () =>{
 
 
             </p>
+            </div>
             <div className="d-flex justify-content-center">
         <div className="d-lg-none w-75 captext3"><strong>4. Kisan Vikas Patra (KVP):
 
@@ -137,7 +140,7 @@ const Subsidies = () =>{
 </div>
         </div>
         
-</div>
+
         </div>
         <div className="d-flex justify-content-center">
         <div className="d-none d-lg-block w-75 captext2"><strong>5. Senior Citizens Savings Scheme (SCSS):
@@ -155,6 +158,7 @@ const Subsidies = () =>{
 
 
             </p>
+            </div>
             <div className="d-flex justify-content-center">
         <div className="d-lg-none w-75 captext3"><strong>5. Senior Citizens Savings Scheme (SCSS):
 
@@ -175,7 +179,7 @@ const Subsidies = () =>{
 </div>
         </div>
         
-</div>
+
         </div>
         <div className="d-flex justify-content-center">
         <div className="d-none d-lg-block w-75 captext2"><strong>6. Stand-Up India:
@@ -195,6 +199,7 @@ const Subsidies = () =>{
 
 
             </p>
+            </div>
             <div className="d-flex justify-content-center">
         <div className="d-lg-none w-75 captext3"><strong>6. Stand-Up India:
 
@@ -217,7 +222,7 @@ const Subsidies = () =>{
 </div>
         </div>
         
-</div>
+
         </div>
         <div className="d-flex justify-content-center">
         <div className="d-none d-lg-block w-75 captext2"><strong>7. Mudra Yojana (Pradhan Mantri Mudra Yojana):
@@ -237,6 +242,7 @@ const Subsidies = () =>{
 
 
             </p>
+            </div>
             <div className="d-flex justify-content-center">
         <div className="d-lg-none w-75 captext3"><strong>7. Mudra Yojana (Pradhan Mantri Mudra Yojana):
 
@@ -257,7 +263,7 @@ const Subsidies = () =>{
             </p>
 
 </div>
-        </div>
+        
         
 </div>
         </div>
@@ -279,6 +285,7 @@ const Subsidies = () =>{
 
 
             </p>
+            </div>
             <div className="d-flex justify-content-center">
         <div className="d-lg-none w-75 captext3"><strong>8. Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY):
 
@@ -302,7 +309,7 @@ const Subsidies = () =>{
         </div>
         
 </div>
-        </div>
+        
         </div>
         </div>
 

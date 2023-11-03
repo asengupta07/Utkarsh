@@ -6,8 +6,7 @@ import Marketplace from './components/Marketplace'
 import Subsidies from './components/Subsidiaries';
 import Mentorship from './components/Mentorship';
 import AboutView from './components/About';
-import Wishlist from './components/Wishlist';
-import CartView from './components/Cart';
+
 import SellView from './components/SellView';
 
 
