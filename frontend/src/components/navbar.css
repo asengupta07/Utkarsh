@@ -124,9 +124,26 @@ overflow: hidden;
         height: 80px;
         width: 80px;
       }
+      .awwring{
+        scale: .6;
+        
+        
+      }
       
       .leadtext{
         font-size: 400%;
+      }
+    }
+    .imagrezi2{
+      height: 300px;
+      width: 300px;
+      margin: auto;    
+    display: block;
+    }
+    @media only screen and (max-width: 992px){
+      .imagrezi2{
+        height: 100px;
+        width: 100px;
       }
     }
     .padtop{
@@ -175,21 +192,31 @@ overflow: hidden;
 
     }
     .men1 {
-      background: url("https://futureoflife.org/wp-content/uploads/2020/08/elon_musk_royal_society.jpg") no-repeat;
+      background: url("./A\ businesswoman\ 1.png") no-repeat;
       background-size: cover;
-      border-radius: 50%
+      border-radius: 50%;
+      transition: 0.3s;
     }
     .men2{
-      background: url("https://static01.nyt.com/images/2021/05/17/business/14altGates-print/14Gates--top-mediumSquareAt3X.jpg") no-repeat;
+      background: url("./An\ indian\ busin\ 0\(1\).png") no-repeat;
       background-size: cover;
-      border-radius: 50%
-      
+      border-radius: 50%;
+      transition: 0.3s;
     }
     .men3{
-      background: url("https://static01.nyt.com/images/2021/06/13/books/review/Smith/merlin_126481298_d4afd655-6a72-4f41-b8c8-00f1633315fb-mediumSquareAt3X.jpg") no-repeat;
+      background: url("./An\ indian\ busin\ 1.png") no-repeat;
       background-size: cover;
-      border-radius: 50%
-
+      border-radius: 50%;
+      transition: 0.3s;
+    }
+    .men1:hover {
+      opacity: 0.6;
+    }
+    .men2:hover{
+      opacity: 0.6;
+    }
+    .men3:hover{
+      opacity: 0.6;
     }
     .aboimg{
       width: 100%;
@@ -278,3 +305,4 @@ overflow: hidden;
       position: relative;
       bottom: 6rem;
     }
+    

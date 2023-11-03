@@ -70,15 +70,17 @@ const Home = () => {
   <div class="row gx-1 gx-lg-5">
     <div class="col">
       <div className="img1 imagrezi">
-      <span class="position-relative top-0 float-start translate-middle badge rounded-pill bg-danger">
-    Bestseller
-    
-  </span>
 
       </div>
     </div>
     <div class="col">
-    <div className="img2 imagrezi"></div>
+    <div className="img2 imagrezi">
+      <span class="position-relative top-0 float-start translate-middle badge rounded-pill bg-danger awwring">
+    Bestseller
+    
+  </span>
+
+    </div>
     </div>
     <div class="col">
     <div className="img3 imagrezi"></div>
@@ -94,13 +96,13 @@ const Home = () => {
           <div class="container text-center padtop">
   <div class="row gx-1 gx-lg-5">
     <div class="col">
-      <div className="imagrezi men1"></div>
+      <div className="imagrezi2 men1"></div>
     </div>
     <div class="col">
-    <div className="imagrezi men2"></div>
+    <div className="imagrezi2 men2"></div>
     </div>
     <div class="col">
-    <div className="imagrezi men3"></div>
+    <div className="imagrezi2 men3"></div>
     </div>
     </div>
     </div>
