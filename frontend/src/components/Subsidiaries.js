@@ -262,7 +262,7 @@ const Subsidies = () =>{
 </div>
         </div>
         <div className="d-flex justify-content-center">
-        <div className="d-none d-lg-block w-75 text-center captext2"><strong>8. Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY):
+        <div className="d-none d-lg-block w-75 captext2"><strong>8. Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY):
 
 
 
@@ -280,7 +280,7 @@ const Subsidies = () =>{
 
             </p>
             <div className="d-flex justify-content-center">
-        <div className="d-lg-none w-75 text-center captext3"><strong>8. Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY):
+        <div className="d-lg-none w-75 captext3"><strong>8. Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY):
 
 
 

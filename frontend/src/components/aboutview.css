@@ -17,3 +17,9 @@
     linear-gradient( to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%),
     url("https://cdn.discordapp.com/attachments/903660417073680394/1170057322924609536/FoodTank_agriculturesubsidiesworldbankreport.jpg?ex=6557a7cc&is=654532cc&hm=d87e59c25b6f399ccd1e81ef6c4b0bb30d639d42e6ba75508cae28fe81d7ddb4&");
 }
+.abomage4{
+    background: 
+    linear-gradient( to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%),
+    url("https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/TNC22001_210918_00931.jpg?crop=0%2C435%2C3700%2C2035&wid=4000&hei=2200&scl=0.925");
+background-size: cover;
+}
