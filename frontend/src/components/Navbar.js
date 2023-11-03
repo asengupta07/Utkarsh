@@ -7,7 +7,7 @@ const Navbar = () =>{
 
 <nav className="navbar navbar-expand-lg sticky-top border-bottom border-4 border-black nav-background ">
   <div className="container-fluid">
-  <Link className="" to="/">
+  <Link className="ms-2" to="/">
     <img className="loga" src="https://cdn.discordapp.com/attachments/903660417073680394/1168960385295061102/U__2_-removebg-preview.png?ex=6553aa32&is=65413532&hm=39aafc920ef5dab8712141e394567fd0b66cbd38be8629c8a844d3b9918271df&" alt="" />
     </Link>
     <Link className="navbar-brand " to="/">
