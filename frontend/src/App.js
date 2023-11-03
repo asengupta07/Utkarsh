@@ -8,7 +8,7 @@ import Mentorship from './components/Mentorship';
 import AboutView from './components/About';
 import Wishlist from './components/Wishlist';
 import CartView from './components/Cart';
-import LoginView from './components/Login';
+import SellView from './components/SellView';
 
 
 
@@ -25,7 +25,7 @@ function App() {
         <Route path='/about' element={<AboutView/>} />
         <Route path='/wishlist' element={<Wishlist/>} />
         <Route path='/cart' element={<CartView/>} />
-        <Route path='/login' element={<LoginView />} />
+        <Route path='/sell' element={<SellView />} />
       </Routes>
     
       
