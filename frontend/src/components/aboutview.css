@@ -9,3 +9,11 @@
 .monback{
     width: 18%;
 }
+.monback2{
+    width: 28%;
+}
+.abomage3{
+    background: 
+    linear-gradient( to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%),
+    url("https://cdn.discordapp.com/attachments/903660417073680394/1170057322924609536/FoodTank_agriculturesubsidiesworldbankreport.jpg?ex=6557a7cc&is=654532cc&hm=d87e59c25b6f399ccd1e81ef6c4b0bb30d639d42e6ba75508cae28fe81d7ddb4&");
+}

@@ -34,13 +34,20 @@ const AboutView = () =>{
             <div className="d-lg-none w-60 text-center captext3">Our 7-day money-back guarantee for non-perishable items ensures customer satisfaction. If you're not completely happy with your purchase within a week, simply return the product in its original condition, and we'll refund your purchase price. We prioritize your peace of mind and hassle-free shopping experience.
 </div>
             </div>
-            <div className="d-flex justify-content-center pt-lg-5 pb-lg-5 pt-3 pb-3">
+            <div className="d-flex justify-content-center pt-lg-3 pb-lg-5 pt-1 pb-3">
             
-            <img className="image-fluid" src="" alt="Cashback" />
+            <img className="image-fluid monback2" src="https://static.vecteezy.com/system/resources/previews/009/663/744/original/tick-icon-transparent-free-png.png" alt="Cashback" />
 
             
             </div>
-
+            <div className="d-flex justify-content-center">
+            <div className="d-none d-lg-block w-75 text-center captext2">Our commitment to providing verified, genuine, and top-quality products from trusted sellers is paramount. We meticulously authenticate and curate our product offerings to ensure your complete satisfaction. With us, you can shop confidently, knowing you'll receive genuine items from reputable vendors, setting a high standard for quality and authenticity.
+</div>
+            </div>
+            <div className="d-flex justify-content-center">
+            <div className="d-lg-none w-60 text-center captext3">Our commitment to providing verified, genuine, and top-quality products from trusted sellers is paramount. We meticulously authenticate and curate our product offerings to ensure your complete satisfaction. With us, you can shop confidently, knowing you'll receive genuine items from reputable vendors, setting a high standard for quality and authenticity.
+</div>
+            </div>
             </div>
 
 
