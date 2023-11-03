@@ -74,12 +74,13 @@ const Home = () => {
           <div className="bgkaimg2">
   <div class="container text-center padtop">
   <div class="row gx-1 gx-lg-5">
-    <div class="col">
+    <div class="col text-light">
       <div className="img1 imagrezi">
 
       </div>
+      Teracotta Bag
     </div>
-    <div class="col">
+    <div class="col text-light">
     <div className="img2 imagrezi">
       <span class="position-relative top-0 float-start translate-middle badge rounded-pill bg-danger awwring">
     Bestseller
@@ -87,14 +88,20 @@ const Home = () => {
   </span>
 
     </div>
+    Blue Vase Set
     </div>
-    <div class="col">
+    <div class="col text-light">
     <div className="img3 imagrezi"></div>
+    Saree
     </div>
-    <div class="col">
+    <div class="col text-light">
     <div className="img4 imagrezi"></div>
+    Bedsheet
     </div>
   </div>
+  <a href="/marketplace">
+    <div className="float-end text-light pt-4 fs-5">View Marketplace</div>
+    </a>
 </div>
           </div>
           <div className="bgkaimg2">
