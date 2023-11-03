@@ -1,5 +1,5 @@
 import "./navbar.css"
-
+import { Link } from 'react-router-dom'
 const Home = () => {
     return(
         <div>
@@ -99,23 +99,39 @@ const Home = () => {
     Bedsheet
     </div>
   </div>
-  <a href="/marketplace">
-    <div className="float-end text-light pt-4 fs-5">View Marketplace</div>
-    </a>
+  <Link className="link-light float-end text-light pt-4 fs-5 marketpl" to="/marketplace">
+    View Marketplace →
+    </Link>
 </div>
           </div>
           <div className="bgkaimg2">
-            <div className="leadtext d-flex justify-content-center">Our Mentors</div>
+            <div className="leadtext d-flex justify-content-center pt-4">Our Mentors</div>
           <div class="container text-center padtop">
   <div class="row gx-1 gx-lg-5">
-    <div class="col">
-      <div className="imagrezi2 men1"></div>
+    <div class="col example">
+      <div className="imagrezi2 men1 d-flex justify-content-center">
+        
+        <div class="fadedbox d-none d-lg-block">
+        <div class="title text"> Freya Smith </div>
+      </div>
+      </div>
+      <div className="text-light captext3 d-lg-none pt-2">Freya Smith</div>
     </div>
-    <div class="col">
-    <div className="imagrezi2 men2"></div>
+    <div class="col example">
+    <div className="imagrezi2 men2 d-flex justify-content-center">
+    <div class="fadedbox d-none d-lg-block">
+        <div class="title text"> Naren Singhal </div>
+      </div>
     </div>
-    <div class="col">
-    <div className="imagrezi2 men3"></div>
+    <div className="text-light captext3 d-lg-none pt-2">Naren Singhal</div>
+    </div>
+    <div class="col example">
+    <div className="imagrezi2 men3 d-flex justify-content-center">
+    <div class="fadedbox d-none d-lg-block">
+        <div class="title text"> Vinay Kumar </div>
+      </div>
+    </div>
+    <div className="text-light captext3 d-lg-none pt-2">Vinay Kumar</div>
     </div>
     </div>
     </div>

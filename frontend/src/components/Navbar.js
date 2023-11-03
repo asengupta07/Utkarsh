@@ -17,8 +17,8 @@ const Navbar = () =>{
     </button>
     <div className="vr ms-2 d-none d-lg-block"></div>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li className="nav-item ms-2 me-4">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-center text-lg-start">
+        <li className="nav-item me-4 ms-lg-2">
           <Link className="nav-link" aria-current="page" to="marketplace">Marketplace</Link>
         </li>
         <li className="nav-item me-4">
@@ -38,16 +38,16 @@ const Navbar = () =>{
         
       </ul>
       
-      <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+      <ul className="navbar-nav ms-auto mb-2 mb-lg-0 text-center text-lg-start">
         <li className="nav-item me-4">
           <Link className="nav-link fon" aria-current="page" to="wishlist">
-            <img className='resibag ktt' src="https://cdn.discordapp.com/attachments/903660417073680394/1168980192765689938/pngwing.com.png?ex=6553bca4&is=654147a4&hm=1f0b9c6149076e4fa35f949ce5f241a506c20f03c0c99817349c86b3b9efb852&" alt="" />
+            <img className='resibag ktt d-none d-lg-inline' src="https://cdn.discordapp.com/attachments/903660417073680394/1168980192765689938/pngwing.com.png?ex=6553bca4&is=654147a4&hm=1f0b9c6149076e4fa35f949ce5f241a506c20f03c0c99817349c86b3b9efb852&" alt="" />
             <span className='po'>Wishlist</span>
             </Link>
         </li>
         <li className="nav-item me-4">
           <Link className="nav-link fon" to="cart">
-            <img className="resi ktt" src="https://cdn.discordapp.com/attachments/903660417073680394/1168980192467886271/pngwing.com1.png?ex=6553bca4&is=654147a4&hm=e990d79a4ce4f01c1233051a9ae108d6217b88cc1e089eb3a42c822f2c2bbf39&" alt="" />
+            <img className="resi ktt d-none d-lg-inline" src="https://cdn.discordapp.com/attachments/903660417073680394/1168980192467886271/pngwing.com1.png?ex=6553bca4&is=654147a4&hm=e990d79a4ce4f01c1233051a9ae108d6217b88cc1e089eb3a42c822f2c2bbf39&" alt="" />
             <span className='po'>Cart</span>
             </Link>
         </li>

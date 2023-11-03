@@ -29,14 +29,6 @@ overflow: hidden;
     from, to { border-color: transparent }
     50% { border-color: rgb(255, 0, 0); }
   }
-  /* @media only screen and (min-width: 992px){
-      .nas{
-          position: absolute;
-          left: 36%;
-        } 
-
-  }
-   */
     .loga{
         width: 2rem;
         filter: drop-shadow(2px 2px 2px black);
@@ -195,21 +187,21 @@ overflow: hidden;
       background: url("./A\ businesswoman\ 1.png") no-repeat;
       background-size: cover;
       border-radius: 50%;
-      transition: 0.3s;
+      /* transition: 0.3s; */
     }
     .men2{
       background: url("./An\ indian\ busin\ 0\(1\).png") no-repeat;
       background-size: cover;
       border-radius: 50%;
-      transition: 0.3s;
+      /* transition: 0.3s; */
     }
     .men3{
       background: url("./An\ indian\ busin\ 1.png") no-repeat;
       background-size: cover;
       border-radius: 50%;
-      transition: 0.3s;
+      /* transition: 0.3s; */
     }
-    .men1:hover {
+    /* .men1:hover {
       opacity: 0.6;
     }
     .men2:hover{
@@ -217,7 +209,7 @@ overflow: hidden;
     }
     .men3:hover{
       opacity: 0.6;
-    }
+    } */
     .aboimg{
       width: 100%;
       
@@ -335,4 +327,72 @@ overflow: hidden;
 
 .button-87:active {
   transform: scale(0.95);
+}
+
+.marketpl{
+  position: relative;
+  left: 4%;
+  top: 30%;
+}
+@media only screen and (max-width: 992px){
+  .mobquery{
+    justify-content: center;
+  }
+}
+  
+
+
+
+
+@media only screen and (min-width: 992px){
+.example {
+  
+  
+  position: relative;
+  overflow: hidden;
+  
+  text-align: center;
+}
+.example .fadedbox {
+  
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 44px;
+  color: #fff;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  width: 300px;
+  height: 300px;
+  padding: 130px 20px;
+}
+.example:hover .fadedbox {
+  opacity: 0.8;
+}
+.example .text {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+}
+.example .title {
+  font-size: 2.5em;
+  
+  opacity: 0;
+  transition-delay: 0.2s;
+  transition-duration: 0.3s;
+}
+.example:hover .title,
+.example:focus .title {
+  opacity: 1;
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+}
 }
