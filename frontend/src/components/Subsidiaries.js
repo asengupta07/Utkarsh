@@ -11,7 +11,7 @@ const Subsidies = () =>{
 </div>
         </div>
         <div className="d-flex justify-content-center">
-        <div className="d-lg-none w-60 text-center captext3">Our comprehensive platform offers valuable insights into government subsidies designed to support farmers. We furnish detailed information on a wide array of financial incentives and assistance programs offered by local, state, and federal governments. These subsidies cover aspects such as crop insurance, equipment financing, land conservation, and more, empowering farmers to make informed decisions and optimize their agricultural operations. We're dedicated to facilitating access to these vital resources, ensuring a sustainable and prosperous farming community.
+        <div className="d-lg-none w-75 text-center captext3">Our comprehensive platform offers valuable insights into government subsidies designed to support farmers. We furnish detailed information on a wide array of financial incentives and assistance programs offered by local, state, and federal governments. These subsidies cover aspects such as crop insurance, equipment financing, land conservation, and more, empowering farmers to make informed decisions and optimize their agricultural operations. We're dedicated to facilitating access to these vital resources, ensuring a sustainable and prosperous farming community.
 </div>
         </div>
 
