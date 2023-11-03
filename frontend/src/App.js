@@ -23,8 +23,7 @@ function App() {
         <Route path='/subsidies' element={<Subsidies/>} />
         <Route path='/mentorship' element={<Mentorship/>} />
         <Route path='/about' element={<AboutView/>} />
-        <Route path='/wishlist' element={<Wishlist/>} />
-        <Route path='/cart' element={<CartView/>} />
+        
         <Route path='/sell' element={<SellView />} />
       </Routes>
     
