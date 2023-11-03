@@ -16,9 +16,12 @@ const Home = () => {
       <div className="d-none d-lg-block align-self-center flex-fill text-center">
         
         <div className="leadtext">Utkarsh</div>
+        <div className="ry px-5">
         <div className="captext">Our Ecom Eco-Friendly Product Store operates on the principles of maintaining the quality that customers expect in each product and promoting environmental care. Check out our product list and start shopping sustainably.</div>
-        
         </div>
+
+        </div>
+        
     </div>
     </div>
     <div className="carousel-item" data-bs-interval="5000">
@@ -27,7 +30,10 @@ const Home = () => {
       <div className="d-none d-lg-block align-self-center flex-fill text-center">
         
         <div className="leadtext">Subsidies</div>
+        <div className="ry px-5">
+
         <div className="captext">Discover the financial support available to farmers through our comprehensive subsidy guide. Learn about grants, loans, and incentives that can boost your agricultural endeavors, ensuring a thriving and sustainable future for your farm. Access valuable resources to maximize your benefits and cultivate success.</div>
+        </div>
         
         </div>
     </div>
@@ -38,7 +44,10 @@ const Home = () => {
       <div className="d-none d-lg-block align-self-center flex-fill text-center">
         
         <div className="leadtext">Mentorship</div>
+        <div className="ry px-5">
         <div className="captext">Connect with experienced mentors who specialize in helping farmers excel in produce sales. Our 1-on-1 mentorship program offers personalized guidance and insights tailored to your unique needs. Unlock the secrets of successful selling and take your agricultural business to new heights with expert support.</div>
+
+        </div>
         
         </div>
     </div>
@@ -60,7 +69,13 @@ const Home = () => {
   <div class="container text-center padtop">
   <div class="row gx-1 gx-lg-5">
     <div class="col">
-      <div className="img1 imagrezi"></div>
+      <div className="img1 imagrezi">
+      <span class="position-relative top-0 float-start translate-middle badge rounded-pill bg-danger">
+    Bestseller
+    
+  </span>
+
+      </div>
     </div>
     <div class="col">
     <div className="img2 imagrezi"></div>
