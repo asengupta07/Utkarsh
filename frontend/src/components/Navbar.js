@@ -37,10 +37,7 @@ const Navbar = () =>{
         
         
       </ul>
-      {/* <form className="d-flex" role="search">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-        <button className="btn btn-outline-warning" type="submit">Search</button>
-      </form> */}
+      
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
         <li className="nav-item me-4">
           <Link className="nav-link fon" aria-current="page" to="wishlist">
@@ -55,12 +52,7 @@ const Navbar = () =>{
             </Link>
         </li>
         
-        {/* <li className="nav-item me-4">
-          <Link className="nav-link fon" to="login">
-            <img className='resi ktt' src="https://cdn.discordapp.com/attachments/903660417073680394/1168980192212037733/image2.png?ex=6553bca4&is=654147a4&hm=a4af7335ec801520b386c41cb373278e121427ab243db23b8b4f965d4c3d5150&" alt="" />
-            <span className='po'>Login</span>
-            </Link>
-        </li> */}
+        
         
         
       </ul>
