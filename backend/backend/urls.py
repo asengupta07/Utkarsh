@@ -16,8 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from . import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("marketplace/", include("marketplace.urls")),
+    path("get_products/", views.get_products, name="get_products"),
+    path("get_product/", views.get_product, name="get_product"),
+    path("", views.index, name="index"), 
 ]
