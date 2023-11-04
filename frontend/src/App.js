@@ -6,8 +6,9 @@ import Marketplace from './components/Marketplace'
 import Subsidies from './components/Subsidiaries';
 import Mentorship from './components/Mentorship';
 import AboutView from './components/About';
-
-import SellView from './components/SellView';
+import FinanceView from './components/FinanceView';
+import SellerLogin from './components/SellerLogin';
+import BuyerLogin from './components/BuyerLogin';
 
 
 
@@ -22,8 +23,10 @@ function App() {
         <Route path='/subsidies' element={<Subsidies/>} />
         <Route path='/mentorship' element={<Mentorship/>} />
         <Route path='/about' element={<AboutView/>} />
+        <Route path='/finance' element={<FinanceView/>} />
         
-        <Route path='/sell' element={<SellView />} />
+        <Route path='/sellerlogin' element={<SellerLogin />} />
+        <Route path='/buyerlogin' element={<BuyerLogin />} />
       </Routes>
     
       

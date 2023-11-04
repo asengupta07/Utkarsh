@@ -28,13 +28,22 @@ const Navbar = () =>{
         <li className="nav-item me-4">
           <Link className="nav-link" to="mentorship">Mentorship</Link>
         </li>
+        
         <li className='nav-item me-4'>
-            <Link className="nav-link" to="sell">Sell</Link>
-            </li>
+            <Link className="nav-link" to="finance">Finance</Link>
+        </li>
         <li className='nav-item me-4'>
             <Link className="nav-link" to="about">About</Link>
         </li>
-        
+        <li className='nav-item me-4 dropdown '>
+        <Link class="nav-link dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Account
+          </Link>
+          <ul class="dropdown-menu dropdown-menu-dark ">
+            <li><Link class="dropdown-item" to="/sellerlogin">Seller</Link></li>
+            <li><Link class="dropdown-item" to="/buyerlogin">User</Link></li>
+          </ul>
+            </li>
         
       </ul>
       
