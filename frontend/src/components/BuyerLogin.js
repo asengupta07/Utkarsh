@@ -1,18 +1,39 @@
 import "./navbar.css"
 import "./aboutview.css"
-const SellView = () =>{
+const BuyerLogin = () =>{
     return(
         <div className="container-fluid">
-            <div className="abo1">
-            <div className="leadtext text-center pt-3">Become a Seller</div>
+            <div className="abo2">
+            <div className="leadtext text-center pt-3">User Login</div>
             <form class="row g-3 text-light px-5 pt-3 pb-5 m-0" data-bs-theme="dark">
-  <div class="col-md-6">
+  <div class="col-md-4">
+  <label for="inputFirstName" class="form-label">First Name</label>
+    <input type="text" class="form-control" id="inputFirstName" />
+  </div>
+  <div class="col-md-4">
+  <label for="inputMiddleName" class="form-label">Middle Name (optional)</label>
+    <input type="text" class="form-control" id="inputMiddleName" />
+  </div>
+  <div class="col-md-4">
+  <label for="inputLastName" class="form-label">Last Name</label>
+    <input type="text" class="form-control" id="inputLastName" />
+  </div>
+  
+  <div class="col-md-3">
     <label for="inputEmail4" class="form-label">Email</label>
     <input type="email" class="form-control" id="inputEmail4" />
   </div>
-  <div class="col-md-6">
+  <div class="col-md-3">
+    <label for="inputPhone" class="form-label">Phone Number</label>
+    <input type="number" class="form-control" id="inputPhone" />
+    </div>
+  <div class="col-md-3">
     <label for="inputPassword4" class="form-label">Password</label>
     <input type="password" class="form-control" id="inputPassword4" />
+  </div>
+  <div class="col-md-3">
+    <label for="inputPassword5" class="form-label">Confirm Password</label>
+    <input type="password" class="form-control" id="inputPassword5" />
   </div>
   <div class="col-12">
     <label for="inputAddress" class="form-label">Address</label>
@@ -70,7 +91,7 @@ const SellView = () =>{
       
   </div>
   <div class="col-md-2">
-    <label for="inputZip" class="form-label">Zip</label>
+    <label for="inputZip" class="form-label">Pin Code</label>
     <input type="text" class="form-control" id="inputZip" />
   </div>
   <div class="col-12">
@@ -89,7 +110,7 @@ const SellView = () =>{
         </div>
     )
 }
-export default SellView;
+export default BuyerLogin;
 
 
 

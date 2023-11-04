@@ -27,6 +27,12 @@
     url("https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/TNC22001_210918_00931.jpg?crop=0%2C435%2C3700%2C2035&wid=4000&hei=2200&scl=0.925");
 background-size: cover;
 }
+.abomage5{
+    background: 
+    linear-gradient( to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%),
+    url("https://imageio.forbes.com/specials-images/imageserve/63b6fc8d79ce412a94f26064/0x0.jpg?format=jpg&crop=3000,1407,x0,y599,safe&height=600&width=1200&fit=bounds");
+background-size: cover;
+}
 .sqrmage{
     width: 16.2rem;
     height: 16.2rem;

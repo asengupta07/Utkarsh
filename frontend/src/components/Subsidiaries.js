@@ -3,7 +3,7 @@ import "./aboutview.css"
 const Subsidies = () =>{
     return(
         <div className="container-fluid">
-        <div className="abo1">
+        <div className="abo2">
         <div className="abomage3 pt-3 pb-3 pt-lg-5 pb-lg-5 ">
         <div className="leadtext text-center"> Subsidies </div>
         <div className="d-flex justify-content-center">
@@ -22,7 +22,7 @@ const Subsidies = () =>{
         <div className="leadtext text-center"> Bulletin </div>
         
         <div className="d-flex justify-content-center">
-        <div className="d-none d-lg-block w-75 captext2"><strong>1. Sukanya Samriddhi Yojana (SSY): </strong>
+        <div className="d-none d-lg-block w-75 captext2"><a className="link-light" href="https://www.myscheme.gov.in/schemes/ssy"><strong>1. Sukanya Samriddhi Yojana (SSY): </strong></a>
         <p>
             - This small savings scheme encourages parents to save for their girl child's education and marriage expenses.
             </p>
@@ -34,7 +34,7 @@ const Subsidies = () =>{
 </div>
         </div>
         <div className="d-flex justify-content-center">
-        <div className="d-lg-none w-75 captext3"><strong>1. Sukanya Samriddhi Yojana (SSY): </strong>
+        <div className="d-lg-none w-75 captext3"><a className="link-light" href="https://www.myscheme.gov.in/schemes/ssy"><strong>1. Sukanya Samriddhi Yojana (SSY): </strong></a>
         <p>
             - This small savings scheme encourages parents to save for their girl child's education and marriage expenses.
             </p>
@@ -46,8 +46,8 @@ const Subsidies = () =>{
 </div>
         </div>
         <div className="d-flex justify-content-center">
-        <div className="d-none d-lg-block w-75 captext2"><strong>2. Public Provident Fund (PPF):
- </strong>
+        <div className="d-none d-lg-block w-75 captext2"><a className="link-light" href="https://sbi.co.in/web/personal-banking/investments-deposits/govt-schemes/ppf"><strong>2. Public Provident Fund (PPF):
+ </strong></a>
         <p>
         - The PPF is a long-term savings scheme that provides attractive interest rates and income tax benefits.
             </p>
@@ -57,8 +57,8 @@ const Subsidies = () =>{
             </p>
             </div>
             <div className="d-flex justify-content-center">
-        <div className="d-lg-none w-75 captext3"><strong>2. Public Provident Fund (PPF):
- </strong>
+        <div className="d-lg-none w-75 captext3"><a className="link-light" href="https://sbi.co.in/web/personal-banking/investments-deposits/govt-schemes/ppf"><strong>2. Public Provident Fund (PPF):
+ </strong></a>
         <p>
         - The PPF is a long-term savings scheme that provides attractive interest rates and income tax benefits.
             </p>
@@ -73,9 +73,9 @@ const Subsidies = () =>{
 
         </div>
         <div className="d-flex justify-content-center">
-        <div className="d-none d-lg-block w-75 captext2"><strong>3. Post Office Monthly Income Scheme (POMIS):
+        <div className="d-none d-lg-block w-75 captext2"><a className="link-light" href="https://www.myscheme.gov.in/schemes/pomis"><strong>3. Post Office Monthly Income Scheme (POMIS):
 
- </strong>
+ </strong></a>
         <p>
           - Offered by both traditional post offices and IPPB, POMIS provides a stable monthly income to investors.
 
@@ -87,9 +87,9 @@ const Subsidies = () =>{
             </p>
             </div>
             <div className="d-flex justify-content-center">
-        <div className="d-lg-none w-75 captext3"><strong>3. Post Office Monthly Income Scheme (POMIS):
+        <div className="d-lg-none w-75 captext3"><a className="link-light" href="https://www.myscheme.gov.in/schemes/pomis"><strong>3. Post Office Monthly Income Scheme (POMIS):
 
- </strong>
+ </strong></a>
         <p>
           - Offered by both traditional post offices and IPPB, POMIS provides a stable monthly income to investors.
 
@@ -106,7 +106,7 @@ const Subsidies = () =>{
 
         </div>
         <div className="d-flex justify-content-center">
-        <div className="d-none d-lg-block w-75 captext2"><strong>4. Kisan Vikas Patra (KVP):
+        <div className="d-none d-lg-block w-75 captext2"><strong><a className="link-light" href="https://www.indiapost.gov.in/Financial/Pages/Content/Post-Office-Saving-Schemes.aspx">4. Kisan Vikas Patra (KVP):</a>
 
 
  </strong>
@@ -122,7 +122,7 @@ const Subsidies = () =>{
             </p>
             </div>
             <div className="d-flex justify-content-center">
-        <div className="d-lg-none w-75 captext3"><strong>4. Kisan Vikas Patra (KVP):
+        <div className="d-lg-none w-75 captext3"><strong><a className="link-light" href="https://www.indiapost.gov.in/Financial/Pages/Content/Post-Office-Saving-Schemes.aspx">4. Kisan Vikas Patra (KVP):</a>
 
 
  </strong>
@@ -143,7 +143,7 @@ const Subsidies = () =>{
 
         </div>
         <div className="d-flex justify-content-center">
-        <div className="d-none d-lg-block w-75 captext2"><strong>5. Senior Citizens Savings Scheme (SCSS):
+        <div className="d-none d-lg-block w-75 captext2"><strong><a className="link-light" href="https://www.myscheme.gov.in/schemes/scss">5. Senior Citizens Savings Scheme (SCSS):</a>
 
 
 
@@ -160,7 +160,7 @@ const Subsidies = () =>{
             </p>
             </div>
             <div className="d-flex justify-content-center">
-        <div className="d-lg-none w-75 captext3"><strong>5. Senior Citizens Savings Scheme (SCSS):
+        <div className="d-lg-none w-75 captext3"><strong><a className="link-light" href="https://www.myscheme.gov.in/schemes/scss">5. Senior Citizens Savings Scheme (SCSS):</a>
 
 
 
@@ -182,7 +182,7 @@ const Subsidies = () =>{
 
         </div>
         <div className="d-flex justify-content-center">
-        <div className="d-none d-lg-block w-75 captext2"><strong>6. Stand-Up India:
+        <div className="d-none d-lg-block w-75 captext2"><strong><a className="link-light" href="https://www.myscheme.gov.in/schemes/sui">6. Stand-Up India:</a>
 
 
 
@@ -201,7 +201,7 @@ const Subsidies = () =>{
             </p>
             </div>
             <div className="d-flex justify-content-center">
-        <div className="d-lg-none w-75 captext3"><strong>6. Stand-Up India:
+        <div className="d-lg-none w-75 captext3"><strong><a className="link-light" href="https://www.myscheme.gov.in/schemes/sui">6. Stand-Up India:</a>
 
 
 
@@ -225,7 +225,7 @@ const Subsidies = () =>{
 
         </div>
         <div className="d-flex justify-content-center">
-        <div className="d-none d-lg-block w-75 captext2"><strong>7. Mudra Yojana (Pradhan Mantri Mudra Yojana):
+        <div className="d-none d-lg-block w-75 captext2"><strong><a className="link-light" href="https://www.myscheme.gov.in/schemes/pmmy">7. Mudra Yojana (Pradhan Mantri Mudra Yojana):</a>
 
 
 
@@ -244,7 +244,7 @@ const Subsidies = () =>{
             </p>
             </div>
             <div className="d-flex justify-content-center">
-        <div className="d-lg-none w-75 captext3"><strong>7. Mudra Yojana (Pradhan Mantri Mudra Yojana):
+        <div className="d-lg-none w-75 captext3"><strong><a className="link-light" href="https://www.myscheme.gov.in/schemes/pmmy">7. Mudra Yojana (Pradhan Mantri Mudra Yojana):</a>
 
 
 
@@ -268,7 +268,7 @@ const Subsidies = () =>{
 </div>
         </div>
         <div className="d-flex justify-content-center">
-        <div className="d-none d-lg-block w-75 captext2"><strong>8. Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY):
+        <div className="d-none d-lg-block w-75 captext2"><strong><a className="link-light" href="https://www.myscheme.gov.in/schemes/pmjjby">8. Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY):</a>
 
 
 
@@ -287,7 +287,7 @@ const Subsidies = () =>{
             </p>
             </div>
             <div className="d-flex justify-content-center">
-        <div className="d-lg-none w-75 captext3"><strong>8. Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY):
+        <div className="d-lg-none w-75 captext3"><strong><a className="link-light" href="https://www.myscheme.gov.in/schemes/pmjjby">8. Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY):</a>
 
 
 
