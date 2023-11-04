@@ -7,11 +7,11 @@ const AboutView = () =>{
             <div className="abomage pt-3 pb-3 pt-lg-5 pb-lg-5 ">
             <div className="leadtext text-center"> About Utkarsh </div>
             <div className="d-flex justify-content-center">
-            <div className="d-none d-lg-block w-75 text-center captext2">A responsive mobile-friendly web application, is a revolutionary approach to connecting the rural artisans, farmers and small cottage industries to the larger market within the heart of India’s heterogenous panorama. It is an e-commerce marketplace that goes beyond the conformities of traditional e-commerce platforms, empowering and enhancing rural economies while offering consumer-friendly priorities even to far-off and disconnected communities as well as individuals.
+            <div className="d-none d-lg-block w-75 text-center captext2">A responsive mobile-friendly web application, we are a revolutionary approach to connecting the rural artisans, farmers and small cottage industries to the larger market within the heart of India’s heterogenous panorama. It is an e-commerce marketplace that goes beyond the conformities of traditional e-commerce platforms, empowering and enhancing rural economies while offering consumer-friendly priorities even to far-off and disconnected communities as well as individuals.
 </div>
             </div>
             <div className="d-flex justify-content-center">
-            <div className="d-lg-none w-60 text-center captext3">A responsive mobile-friendly web application, is a revolutionary approach to connecting the rural artisans, farmers and small cottage industries to the larger market within the heart of India’s heterogenous panorama. It is an e-commerce marketplace that goes beyond the conformities of traditional e-commerce platforms, empowering and enhancing rural economies while offering consumer-friendly priorities even to far-off and disconnected communities as well as individuals.
+            <div className="d-lg-none w-60 text-center captext3">A responsive mobile-friendly web application, we are a revolutionary approach to connecting the rural artisans, farmers and small cottage industries to the larger market within the heart of India’s heterogenous panorama. It is an e-commerce marketplace that goes beyond the conformities of traditional e-commerce platforms, empowering and enhancing rural economies while offering consumer-friendly priorities even to far-off and disconnected communities as well as individuals.
 </div>
             </div>
 
