@@ -179,6 +179,11 @@ const Marketplace = () => {
   </div>
 </div>
         </div>
+    
+        </div>
+        <div class="row">
+        
+
             {/* Repeat the structure for more static product cards as needed */}
 
             {data1 &&
@@ -195,6 +200,7 @@ const Marketplace = () => {
                 </div>
               ))}
           </div>
+          
         </div>
       </div>
     </div>
