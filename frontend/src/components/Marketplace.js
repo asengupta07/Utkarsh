@@ -95,7 +95,7 @@ const Marketplace = () => {
               data1.products.map((getProd, index) => (
                 <div key={index} className="col pb-3">
                   <div className="card">
-                    <img src={getProd.image} className="card-img-top" alt="" />
+                    <img src={'http://localhost:8000/backend/'+getProd.image.substring(9)} className="card-img-top" alt="" />
                     <div className="card-body">
                       <h5 className="card-title">{getProd.name}</h5>
                       <p className="card-text">₹ {getProd.price}</p>
