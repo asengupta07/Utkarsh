@@ -1,6 +1,10 @@
 .abo1{
     background-color: black;
 }
+.abo2{
+    background: 
+    linear-gradient( to bottom, rgba(0, 0, 0, 1) 0%,rgba(0, 0, 0, 1) 40%, rgb(107, 73, 0) 100%);
+}
 .abomage{
     background: 
     linear-gradient( to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%),
