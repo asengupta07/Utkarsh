@@ -8,7 +8,6 @@ from .models import Product
 def get_products(request):
     if request.method == "GET":
         products = Product.objects.all()
-        print(list(products.values()))
         return JsonResponse({"products": list(products.values())})
     else:
         return JsonResponse({"error": "GET request required."})
