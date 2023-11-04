@@ -11,9 +11,12 @@ def register_seller(request):
     if request.method == "POST":
         first_name = request.POST["first_name"]
         last_name = request.POST["last_name"]
-        address1 = request.POST["address"]
-        address2 = request.POST["address"]
-        address = address1 + "," + address2
+        address1 = request.POST["address1"]
+        address2 = request.POST["address2"]
+        city = request.POST["city"]
+        state = request.POST["state"]
+        pin = request.POST["pin"]
+        address = address1 + "," + address2 + "," + city + "," + state + "," + pin
         email = request.POST["email"]
         phone = request.POST["phone"]
         password = request.POST["password"]
@@ -35,7 +38,9 @@ def register_seller(request):
                 email=email,
                 password=password,
             )
+            user.save()
             seller = Seller(
+                user=user,
                 first_name=first_name,
                 last_name=last_name,
                 address=address,
@@ -48,4 +53,5 @@ def register_seller(request):
                 pan=pan,
                 gst=gst,
             )
+            seller.save()
     

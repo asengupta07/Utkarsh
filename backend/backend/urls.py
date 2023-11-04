@@ -23,4 +23,5 @@ urlpatterns = [
     path("marketplace/", include("marketplace.urls")),
     path("", views.index, name="index"), 
     path('backend/<str:image_path>', views.serve_image, name='serve_image'),
+    path("/", include("accounts.urls")),
 ]
