@@ -27,3 +27,11 @@
     url("https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/TNC22001_210918_00931.jpg?crop=0%2C435%2C3700%2C2035&wid=4000&hei=2200&scl=0.925");
 background-size: cover;
 }
+.sqrmage{
+    width: 16.2rem;
+    height: 16.2rem;
+    object-fit: cover;
+}
+.card {
+    width: 16.313rem;
+}
