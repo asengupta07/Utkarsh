@@ -1,11 +1,24 @@
 import "./navbar.css"
 import "./aboutview.css"
+import { Link } from "react-router-dom"
 const SellerLogin = () =>{
     return(
         <div className="container-fluid">
             <div className="abo2">
             <div className="leadtext text-center pt-3">Become a Seller</div>
             <form class="row g-3 text-light px-5 pt-3 pb-5 m-0" data-bs-theme="dark">
+            <div class="col-md-4">
+  <label for="inputFirstName" class="form-label">First Name</label>
+    <input type="text" class="form-control" id="inputFirstName" />
+  </div>
+  <div class="col-md-4">
+  <label for="inputMiddleName" class="form-label">Middle Name (optional)</label>
+    <input type="text" class="form-control" id="inputMiddleName" />
+  </div>
+  <div class="col-md-4">
+  <label for="inputLastName" class="form-label">Last Name</label>
+    <input type="text" class="form-control" id="inputLastName" />
+  </div>
   <div class="col-md-6">
     <label for="inputEmail4" class="form-label">Email(*)</label>
     <input type="email" class="form-control" id="inputEmail4" />
@@ -77,6 +90,34 @@ const SellerLogin = () =>{
     <label for="inputZip" class="form-label">Pin Code(*)</label>
     <input type="text" class="form-control" id="inputZip"  />
   </div>
+  <div class="col-md-6">
+    <label for="residenceType" class="form-label">Residence Type</label>
+    <div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
+  <label class="form-check-label" for="flexRadioDefault1">
+    Rural
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+  <label class="form-check-label" for="flexRadioDefault2">
+    Urban
+  </label>
+</div>
+  </div>
+  <div class="col-md-6">
+    <label for="incomeBracket" class="form-label">Income Bracket</label>
+    <select id="incomeBracket" class="form-select">
+      <option selected>Choose...</option>
+      <option value="below_2_lakh">Below ₹2,00,000</option>
+    <option value="2_lakh-5_lakh">₹2,00,000 - ₹5,00,000</option>
+    <option value="5_lakh-10_lakh">₹5,00,000 - ₹10,00,000</option>
+    <option value="10_lakh-20_lakh">₹10,00,000 - ₹20,00,000</option>
+    <option value="above_20_lakh">Above ₹20,00,000</option>
+      
+    </select>
+  </div>
+
   <div class="col-md-3">
     <label for="aadharid" class="form-label">Aadhar</label>
     <input type="text" class="form-control" id="aadharid" placeholder="16 Digit Aadhar Number" />
@@ -93,7 +134,7 @@ const SellerLogin = () =>{
     <label for="gst" class="form-label">GST</label>
     <input type="text" class="form-control" id="gst" placeholder="GST Number" />
   </div>
-  <label for="inputGroupFile02" class="form-label">Seller Image</label>
+  <label for="inputGroupFile02" class="form-label">Profile Picture</label>
   <div class="input-group mb-3 mt-0">
   
   <input type="file" class="form-control" id="inputGroupFile02" />
@@ -109,7 +150,7 @@ const SellerLogin = () =>{
     </div>
   </div>
   <div class="col-12">
-    <button type="submit" class="button-87">Sign Up</button>
+    <Link to="listitems"><button type="button" class="button-87">Sign Up</button></Link>
   </div>
 </form>
         </div>

@@ -1,5 +1,6 @@
 import "./navbar.css"
 import "./aboutview.css"
+import { Link } from "react-router-dom"
 const BuyerLogin = () =>{
     return(
         <div className="container-fluid">
@@ -103,7 +104,7 @@ const BuyerLogin = () =>{
     </div>
   </div>
   <div class="col-12">
-    <button type="submit" class="button-87">Sign Up</button>
+    <Link to="/marketplace"> <button type="button" class="button-87">Sign Up</button> </Link>
   </div>
 </form>
         </div>

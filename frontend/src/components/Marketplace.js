@@ -47,6 +47,7 @@ const Marketplace = () => {
                   <h5 class="card-title">Teracotta Bag</h5>
                   <p class="card-text">₹ 49.00</p>
                   <Link to="/" class="button-87">Buy Now</Link>
+                  <Link class="button-81" role="button">Add to Cart</Link>
                 </div>
               </div>
             </div>
@@ -57,6 +58,7 @@ const Marketplace = () => {
                   <h5 class="card-title">Blue Vase Set</h5>
                   <p class="card-text">₹ 199.00</p>
                   <Link to="/" class="button-87">Buy Now</Link>
+                  <Link class="button-81" role="button">Add to Cart</Link>
                 </div>
               </div>
             </div>
@@ -67,16 +69,18 @@ const Marketplace = () => {
                   <h5 class="card-title">Saree</h5>
                   <p class="card-text">₹ 169.00</p>
                   <Link to="/" class="button-87">Buy Now</Link>
+                  <Link class="button-81" role="button">Add to Cart</Link>
                 </div>
               </div>
             </div>
             <div class="col pb-3">
               <div class="card ms-auto me-auto">
-                <img src="https://cdn.discordapp.com/attachments/1169346758636224614/1169349059144855672/IMG-20231102-WA0003.jpg?ex=6555142d&is=65429f2d&hm=611cfbf808ad241a73ba08538a6c11b4a5240d9170c3941e9ba3138b97887c46&" class="card-img-top sqrmage" alt="" />
+                <img src="https://cdn.discordapp.com/attachments/1169346758636224614/1169349059144855672/IMG-20231102-WA0003.jpg?ex=6555142d&is=65429f2d&hm=611cfbf808ad241a73ba08538a6c11b4a5240d9170c3941e9ba3138b97881c46&" class="card-img-top sqrmage" alt="" />
                 <div class="card-body">
                   <h5 class="card-title">Bedsheet</h5>
                   <p class="card-text">₹ 129.00</p>
                   <Link to="/" class="button-87">Buy Now</Link>
+                  <Link class="button-81" role="button">Add to Cart</Link>
                 </div>
               </div>
             </div>
@@ -93,6 +97,7 @@ const Marketplace = () => {
                       <h5 className="card-title">{getProd.name}</h5>
                       <p className="card-text">₹ {getProd.price}</p>
                       <Link to="/" className="button-87">Buy Now</Link>
+                      <Link class="button-81" role="button">Add to Cart</Link>
                     </div>
                   </div>
                 </div>

@@ -9,6 +9,7 @@ import AboutView from './components/About';
 import FinanceView from './components/FinanceView';
 import SellerLogin from './components/SellerLogin';
 import BuyerLogin from './components/BuyerLogin';
+import ListItems from './components/ListItems';
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path='/about' element={<AboutView/>} />
         <Route path='/finance' element={<FinanceView/>} />
         
+        <Route path='/sellerlogin/listitems' element={<ListItems />} />
         <Route path='/sellerlogin' element={<SellerLogin />} />
         <Route path='/buyerlogin' element={<BuyerLogin />} />
       </Routes>
