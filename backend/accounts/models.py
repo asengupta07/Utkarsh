@@ -19,6 +19,10 @@ class Seller(models.Model):
     image = models.ImageField(upload_to='sellers', null=True, blank=True)
     rating = models.DecimalField(max_digits=3, decimal_places=2, default=0.0)
     num_ratings = models.IntegerField(default=0)
+    aadhar = models.CharField(max_length=100)
+    voter = models.CharField(max_length=100)
+    pan = models.CharField(max_length=100)
+    gst = models.CharField(max_length=100)
 
     def __str__(self):
-        return self.name
+        return self.user.first_name
