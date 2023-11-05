@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import "./aboutview.css"
 const ProductDetails = ({ match }) => {
   const [product, setProduct] = useState(null);
 
@@ -27,9 +27,12 @@ const ProductDetails = ({ match }) => {
 
   return (
     <div className="container">
+      <div className='abo2'>
+
+      
       {product ? (
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-3">
             <img src={'http://localhost:8000/backend/' + product.image.substring(9)} alt={product.name} />
           </div>
           <div className="col-md-6">
@@ -42,6 +45,8 @@ const ProductDetails = ({ match }) => {
       ) : (
         <p>Loading...</p>
       )}
+      
+    </div>
     </div>
   );
 };
