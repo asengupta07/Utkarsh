@@ -9,13 +9,13 @@ def get_products(request, id=None):
     if request.method == "GET":
         if id is not None:
             try:
-                product = Product.objects.get(id=id)
-                return JsonResponse({"product": product.to_dict()})
+                product = Product.objects.filter(id=id).values()
+                return JsonResponse({"product": dict(product.values()[0])})
             except Product.DoesNotExist:
                 return JsonResponse({"error": "Product not found"}, status=404)
         else:
             products = Product.objects.all()
-            return JsonResponse({"products": [product.to_dict() for product in products]})
+            return JsonResponse({"products": list(products.values())})
     else:
         return JsonResponse({"error": "GET request required."})
     
