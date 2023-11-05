@@ -33,11 +33,11 @@ const SellerLogin = () =>{
   </div>
   <div class="col-12">
     <label for="inputAddress" class="form-label">Address(*)</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" />
+    <input type="text" class="form-control" id="inputAddress" placeholder="House Number, Street, Landmark" />
   </div>
   <div class="col-12">
     <label for="inputAddress2" class="form-label">Address 2(*)</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" />
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Area, Locality" />
   </div>
   <div class="col-md-6">
     <label for="inputCity" class="form-label">City(*)</label>
@@ -105,22 +105,17 @@ const SellerLogin = () =>{
   </label>
 </div>
   </div>
-  <div class="col-md-6">
-    <label for="incomeBracket" class="form-label">Income Bracket</label>
-    <select id="incomeBracket" class="form-select">
-      <option selected>Choose...</option>
-      <option value="below_2_lakh">Below ₹2,00,000</option>
-    <option value="2_lakh-5_lakh">₹2,00,000 - ₹5,00,000</option>
-    <option value="5_lakh-10_lakh">₹5,00,000 - ₹10,00,000</option>
-    <option value="10_lakh-20_lakh">₹10,00,000 - ₹20,00,000</option>
-    <option value="above_20_lakh">Above ₹20,00,000</option>
-      
-    </select>
+  
+  <div class="input-group mb-3 col-md-6">
+  <span class="input-group-text" id="basic-addon1">₹</span>
+  <input type="text" class="form-control" placeholder="Annual Income" aria-label="AnnualIncome" aria-describedby="basic-addon1" />
+
+    
   </div>
 
   <div class="col-md-3">
     <label for="aadharid" class="form-label">Aadhar</label>
-    <input type="text" class="form-control" id="aadharid" placeholder="16 Digit Aadhar Number" />
+    <input type="text" class="form-control" id="aadharid" placeholder="12 Digit Aadhar Number" />
   </div>
   <div class="col-md-3">
     <label for="voter" class="form-label">Voter</label>

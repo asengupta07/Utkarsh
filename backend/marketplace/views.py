@@ -5,10 +5,17 @@ from .models import Product
 
 
 @csrf_exempt
-def get_products(request):
+def get_products(request, id=None):
     if request.method == "GET":
-        products = Product.objects.all()
-        return JsonResponse({"products": list(products.values())})
+        if id is not None:
+            try:
+                product = Product.objects.get(id=id)
+                return JsonResponse({"product": product.to_dict()})
+            except Product.DoesNotExist:
+                return JsonResponse({"error": "Product not found"}, status=404)
+        else:
+            products = Product.objects.all()
+            return JsonResponse({"products": [product.to_dict() for product in products]})
     else:
         return JsonResponse({"error": "GET request required."})
     
