@@ -44,7 +44,7 @@ const Marketplace = () => {
               <div class="card ms-auto me-auto">
                 <img src="https://cdn.discordapp.com/attachments/1169346758636224614/1169349058062733332/IMG-20231101-WA0076.jpg?ex=6555142c&is=65429f2c&hm=cd00e1d8471b4d2c2eaf69d75888447ee3c9997914b139ba996c303ca867f9e8&" class="card-img-top sqrmage" alt="" />
                 <div class="card-body">
-                  <h5 class="card-title">Teracotta Bag</h5>
+                  <h5 class="card-title">Jute Bag</h5>
                   <p class="card-text">₹ 49.00</p>
                   <Link to="/" class="button-87">Buy Now</Link>
                   <Link class="button-81" role="button">Add to Cart</Link>
