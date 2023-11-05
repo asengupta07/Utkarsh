@@ -10,7 +10,7 @@ import FinanceView from './components/FinanceView';
 import SellerLogin from './components/SellerLogin';
 import BuyerLogin from './components/BuyerLogin';
 import ListItems from './components/ListItems';
-
+import ProductDetails from './components/ProductView';
 
 
 function App() {
@@ -25,7 +25,8 @@ function App() {
         <Route path='/mentorship' element={<Mentorship/>} />
         <Route path='/about' element={<AboutView/>} />
         <Route path='/finance' element={<FinanceView/>} />
-        
+        <Route path="/product/:id" element={<ProductDetails/>} />
+
         <Route path='/sellerlogin/listitems' element={<ListItems />} />
         <Route path='/sellerlogin' element={<SellerLogin />} />
         <Route path='/buyerlogin' element={<BuyerLogin />} />
