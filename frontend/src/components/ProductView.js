@@ -1,19 +1,22 @@
 import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import "./aboutview.css"
-const ProductDetails = ({ match }) => {
+
+const ProductDetails = () => {
+  const { id } = useParams();
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
     async function fetchProductDetails() {
-      const productId = match.params.id; 
       try {
-        const response = await fetch(`http://127.0.0.1:8000/marketplace/get_product/${productId}`, {
+        const response = await fetch(`http://127.0.0.1:8000/marketplace/get_products/${id}`, {
           method: 'GET',
           headers: { 'Content-Type': 'application/json' },
         });
         if (response.ok) {
           const data = await response.json();
-          setProduct(data);
+          const productData = data.product;
+          setProduct(productData);
         } else {
           throw new Error('Failed to fetch product details');
         }
@@ -23,31 +26,32 @@ const ProductDetails = ({ match }) => {
     }
 
     fetchProductDetails();
-  }, [match.params.id]);
+  }, [id]);
 
   return (
     <div className="container">
-      <div className='abo2'>
+    <div className='abo2'>
+        <div className='w-100'>
 
-      
-      {product ? (
-        <div className="row">
-          <div className="col-md-3">
-            <img src={'http://localhost:8000/backend/' + product.image.substring(9)} alt={product.name} />
+        
+        {product ? (
+          <div className="row">
+            <div className="col-md-3">
+              <img className='image-fluid sqrmage' src={'http://localhost:8000/backend/' + product.image.substring(9)} alt={product.name} />
+            </div>
+            <div className="col-md-6 text-light">
+              <h2>{product.name}</h2>
+              <p>Price: ₹ {product.price}</p>
+              <p>Description: {product.description}</p>
+              <button className="btn button-87">Add to Cart</button>
+            </div>
           </div>
-          <div className="col-md-6">
-            <h2>{product.name}</h2>
-            <p>Price: ₹ {product.price}</p>
-            <p>Description: {product.description}</p>
-            <button className="btn btn-primary">Add to Cart</button>
-          </div>
-        </div>
-      ) : (
-        <p>Loading...</p>
-      )}
-      
-    </div>
-    </div>
+          ) : (
+            <p>Loading...</p>
+            )}
+            </div>
+            </div>
+            </div>
   );
 };
 

@@ -17,7 +17,7 @@ const getData = async () => {
     }
   } catch (error) {
     console.error('Error fetching data:', error);
-    return null; // You might want to handle the error differently
+    return null; 
   }
 };
 
